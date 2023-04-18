@@ -79,6 +79,7 @@ function ExpenseForm({ submitButtonLabel, onCancel, onSubmit, defaultValues }) {
             value: inputs.amount.value,
           }}
         />
+
         <Input
           style={styles.rowInput}
           label="Date"
